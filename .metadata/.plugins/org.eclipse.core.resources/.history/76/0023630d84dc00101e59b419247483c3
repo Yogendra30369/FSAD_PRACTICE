@@ -1,0 +1,18 @@
+package com.jdbcCRUD;
+import java.sql.*;
+import java.util.*;
+public class jdbccrud {
+		String url="jdbc:mysql://localhost:3306/fsadCRUD";
+		String usr="root";
+		String pwd="root";
+		public static void main(String[] args) {
+		int choice;
+		do {
+			System.out.println("\n------MENU-------");
+			System.out.println("1.Insert department");
+			System.out.println("2.Insert employee");
+			System.out.println("3.view employee");
+			}
+	}
+
+}
